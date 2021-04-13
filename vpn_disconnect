@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Disconnecting to VPN.."
+
+/opt/cisco/anyconnect/bin/vpn -s disconnect
