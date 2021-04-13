@@ -1,0 +1,6 @@
+#!/bin/bash
+
+VPN_SERVER="vpn.mpcdf.mpg.de"
+
+echo "Connecting to VPN.."
+/opt/cisco/anyconnect/bin/vpn -s  < ~/.vpn_creds connect ${VPN_SERVER}
